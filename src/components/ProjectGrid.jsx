@@ -1,63 +1,81 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const projects = [
-  {
-    name: 'localhostai',
-    description: 'Run AI models locally with ease.',
-    url: 'https://github.com/fifteen42/localhostai' // Inferred URL, might need adjustment
-  },
-  {
-    name: 'clapper',
-    description: 'A modern video editor for the browser.',
-    url: 'https://github.com/jbilcke-hf/clapper'
-  },
-  {
-    name: 'ContextAtlas',
-    description: 'Mapping context for LLMs.',
-    url: 'https://github.com/fifteen42/ContextAtlas' // Inferred URL
-  }
+const products = [
+  { emoji: '✏️', name: 'Cavo', url: 'https://cavo.pro/', desc: 'Explain ideas with drawing, voice & camera.' },
+  { emoji: '🍏', name: 'SayApple', url: 'https://sayapple.co/', desc: 'Learn languages through AI voice comics.' },
+  { emoji: '🗺️', name: 'Context Atlas', url: 'https://contextatlas.com', desc: 'Curated guides on context engineering.' },
+  { emoji: '🎨', name: 'Codart', url: 'https://codart.fun', desc: 'Draw and let AI teach you creative coding.' },
 ];
+
+const ProductItem = ({ product }) => {
+  const [hovered, setHovered] = useState(false);
+
+  return (
+    <a
+      href={product.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{ textDecoration: 'none', position: 'relative' }}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      <div style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: '0.4rem',
+        color: 'var(--text-primary)',
+        fontSize: '1rem',
+        transition: 'transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)',
+        transform: hovered ? 'translateY(-4px)' : 'translateY(0)',
+      }}>
+        <span style={{
+          transition: 'transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1)',
+          transform: hovered ? 'scale(1.3) rotate(-8deg)' : 'scale(1) rotate(0deg)',
+          display: 'inline-block',
+        }}>{product.emoji}</span>
+        <span className="mono">{product.name}</span>
+      </div>
+
+      {/* Tooltip */}
+      <div style={{
+        position: 'absolute',
+        left: '50%',
+        top: '100%',
+        transform: hovered
+          ? 'translate(-50%, 8px) scale(1)'
+          : 'translate(-50%, 4px) scale(0.95)',
+        opacity: hovered ? 1 : 0,
+        filter: hovered ? 'blur(0px)' : 'blur(4px)',
+        pointerEvents: 'none',
+        transition: 'all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1)',
+        whiteSpace: 'nowrap',
+        fontSize: '0.78rem',
+        color: 'var(--text-secondary)',
+        fontFamily: 'var(--font-sans)',
+        letterSpacing: '0.01em',
+        paddingTop: '2px',
+      }}>
+        {product.desc}
+      </div>
+    </a>
+  );
+};
 
 const ProjectGrid = () => {
   return (
-    <section className="animate-fade-in delay-200" style={{ marginTop: '4rem' }}>
-      <h2 className="mono" style={{ fontSize: '1.2rem', marginBottom: '2rem', borderBottom: '1px solid var(--card-border)', paddingBottom: '0.5rem' }}>
-        Projects
-      </h2>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
-        {projects.map((project) => (
-          <a 
-            key={project.name} 
-            href={project.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ 
-              display: 'block',
-              padding: '1.5rem', 
-              backgroundColor: 'var(--card-bg)', 
-              border: '1px solid var(--card-border)', 
-              borderRadius: '8px',
-              transition: 'transform 0.2s ease, border-color 0.2s ease'
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = 'translateY(-4px)';
-              e.currentTarget.style.borderColor = 'var(--accent-color)';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = 'translateY(0)';
-              e.currentTarget.style.borderColor = 'var(--card-border)';
-            }}
-          >
-            <h3 className="mono" style={{ fontSize: '1rem', marginBottom: '0.5rem', color: 'var(--accent-color)' }}>
-              {project.name}
-            </h3>
-            <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
-              {project.description}
-            </p>
-          </a>
+    <div className="animate-fade-in delay-200" style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center',
+      marginBottom: '3rem',
+    }}>
+      <p className="mono" style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>Building</p>
+      <div style={{ display: 'flex', gap: '2.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+        {products.map((p) => (
+          <ProductItem key={p.name} product={p} />
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 

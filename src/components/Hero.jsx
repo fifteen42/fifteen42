@@ -8,7 +8,7 @@ const Hero = () => {
         Tingfei
       </h1>
       <p className="animate-fade-in delay-100" style={{ color: 'var(--text-primary)', fontSize: '1.1rem', fontWeight: '300' }}>
-        Don't Panic
+        Humans and cats are multimodal, and Agents should be too.
       </p>
     </section>
   );
