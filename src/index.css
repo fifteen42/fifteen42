@@ -18,7 +18,7 @@ body {
   font-family: var(--font-sans);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  overflow: hidden; /* Prevent scrolling if content fits */
+  overflow-x: hidden;
 }
 
 .container {

@@ -1,28 +1,14 @@
 import React from 'react';
-import ArtBackground from './components/ArtBackground';
-import Hero from './components/Hero';
-import ProjectGrid from './components/ProjectGrid';
-import SocialLinks from './components/SocialLinks';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Challenge from './pages/Challenge';
 
 function App() {
   return (
-    <>
-      <ArtBackground />
-      <div className="container" style={{
-        position: 'relative',
-        zIndex: 1,
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        padding: '0 1rem'
-      }}>
-        <Hero />
-        <ProjectGrid />
-        <SocialLinks />
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/challenge" element={<Challenge />} />
+    </Routes>
   );
 }
 
