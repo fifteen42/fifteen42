@@ -3,10 +3,14 @@ import { Link } from 'react-router-dom';
 
 const challenges = [
   {
-    day: 1,
     date: '2025.02.10',
     product: { name: 'Fooo', desc: 'A personal agent team', url: 'https://www.fooo.ooo/' },
-    video: { name: 'Day 1 Recap', desc: 'Most humans will work for agents within 10 years', url: 'https://www.xiaohongshu.com/discovery/item/698b42380000000015022f05?source=webshare&xhsshare=pc_web&xsec_token=ABnTxgyqVJLdyjFIou0KOrR2jTb0QI40Xt-0Mgs2atTM8=&xsec_source=pc_share' },
+    video: { desc: 'Most humans will work for agents within 10 years', url: 'https://www.xiaohongshu.com/discovery/item/698b42380000000015022f05?source=webshare&xhsshare=pc_web&xsec_token=ABnTxgyqVJLdyjFIou0KOrR2jTb0QI40Xt-0Mgs2atTM8=&xsec_source=pc_share' },
+  },
+  {
+    date: '2026.02.12',
+    product: { name: 'acqu.ai', desc: 'AI marketplace for digital products & SaaS', url: 'https://acqu.ai/' },
+    video: { desc: 'What is OpenClaw actually useful for? My hands-on experience', url: 'https://www.xiaohongshu.com/discovery/item/698ca082000000001d027e17?source=webshare&xhsshare=pc_web&xsec_token=ABsdlGbuB_iEMIcm5a_N_kDdeH4RgssiJ0bM6k7GPuaKE=&xsec_source=pc_share' },
   },
 ];
 
@@ -88,7 +92,7 @@ const Challenge = () => {
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
           {challenges.map((c) => (
-            <div key={c.day} style={{
+            <div key={c.date} style={{
               display: 'flex',
               flexDirection: 'column',
               gap: '0.45rem',
@@ -97,7 +101,7 @@ const Challenge = () => {
                 fontSize: '0.75rem',
                 color: 'var(--text-secondary)',
               }}>
-                Day {c.day} · {c.date}
+                {c.date}
               </div>
               <div style={{
                 display: 'flex',
