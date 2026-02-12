@@ -12,6 +12,11 @@ const challenges = [
     product: { name: 'acqu.ai', desc: 'AI marketplace for digital products & SaaS', url: 'https://acqu.ai/' },
     video: { desc: 'What is OpenClaw actually useful for? My hands-on experience', url: 'https://www.xiaohongshu.com/discovery/item/698ca082000000001d027e17?source=webshare&xhsshare=pc_web&xsec_token=ABsdlGbuB_iEMIcm5a_N_kDdeH4RgssiJ0bM6k7GPuaKE=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.13',
+    product: { name: 'Agent Cards', desc: 'AI agents as cyberpunk trading cards with stats & rarity', url: 'https://agentcards.pro/' },
+    video: { desc: 'Will acquiring software become as easy as shopping in the AI era?', url: 'https://www.xiaohongshu.com/discovery/item/698de8e3000000001503175e?source=webshare&xhsshare=pc_web&xsec_token=ABcw6UTjVwaHhx5v8aOBCovkdZi2eY2J-reP5v0kHsxSY=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
