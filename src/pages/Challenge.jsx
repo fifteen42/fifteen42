@@ -17,6 +17,11 @@ const challenges = [
     product: { name: 'Agent Cards', desc: 'AI agents as cyberpunk trading cards with stats & rarity', url: 'https://agentcards.pro/' },
     video: { desc: 'Will acquiring software become as easy as shopping in the AI era?', url: 'https://www.xiaohongshu.com/discovery/item/698de8e3000000001503175e?source=webshare&xhsshare=pc_web&xsec_token=ABcw6UTjVwaHhx5v8aOBCovkdZi2eY2J-reP5v0kHsxSY=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.14',
+    product: { name: 'X402', desc: 'HTTP 402 payment protocol for autonomous AI agent micropayments', url: 'https://www.pay402.pro/' },
+    video: { desc: 'What can Claude Code freely create on its own?', url: 'https://www.xiaohongshu.com/discovery/item/698f4227000000001d01223b?source=webshare&xhsshare=pc_web&xsec_token=ABx7Rf5vYtcI91PbEUSoxycAPy75TwgiEZp2LDFIVeO_M=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
