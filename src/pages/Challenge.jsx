@@ -22,6 +22,11 @@ const challenges = [
     product: { name: 'X402', desc: 'HTTP 402 payment protocol for autonomous AI agent micropayments', url: 'https://www.pay402.pro/' },
     video: { desc: 'What can Claude Code freely create on its own?', url: 'https://www.xiaohongshu.com/discovery/item/698f4227000000001d01223b?source=webshare&xhsshare=pc_web&xsec_token=ABx7Rf5vYtcI91PbEUSoxycAPy75TwgiEZp2LDFIVeO_M=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.15',
+    product: { name: 'Video2Skill', desc: 'Transform video content into structured skills for coding agents', url: 'https://video2skill.com' },
+    video: { desc: 'Want to see a Mac Mini deploy OpenClaw tutorial?', url: 'https://www.xiaohongshu.com/discovery/item/69907986000000001600a037?source=webshare&xhsshare=pc_web&xsec_token=ABLvIDUJYDMuk5WqIOHj-KPlG4vb275y_xBPEDnGWsYX0=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
