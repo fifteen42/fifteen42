@@ -27,6 +27,11 @@ const challenges = [
     product: { name: 'Video2Skill', desc: 'Transform video content into structured skills for coding agents', url: 'https://video2skill.com' },
     video: { desc: 'Want to see a Mac Mini deploy OpenClaw tutorial?', url: 'https://www.xiaohongshu.com/discovery/item/69907986000000001600a037?source=webshare&xhsshare=pc_web&xsec_token=ABLvIDUJYDMuk5WqIOHj-KPlG4vb275y_xBPEDnGWsYX0=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.16',
+    product: { name: 'Vigent', desc: 'AI agent platform', url: 'https://vigent.pro/' },
+    video: { desc: 'Deploying OpenClaw on Mac Mini is such a hassle — cloud services are better', url: 'https://www.xiaohongshu.com/discovery/item/6991d06b000000001600a001?source=webshare&xhsshare=pc_web&xsec_token=ABqOeO1RNDIjR-ZGoucJdeKUDXJgwJmQc4gSVWL7oq2o0=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
