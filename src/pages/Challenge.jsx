@@ -37,6 +37,11 @@ const challenges = [
     product: { name: 'Soul', desc: 'Define your AI agent\'s personality, attitude & agency', url: 'https://soul.fooo.ooo/' },
     video: { desc: 'The father of lobster OpenClaw just joined OpenAI!', url: 'https://www.xiaohongshu.com/discovery/item/699278df000000001d0107c7?source=webshare&xhsshare=pc_web&xsec_token=ABwMxlWizK5z9a45ORmapjsDuKkci6hBjO39GGIju9uF0=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.17',
+    product: { name: 'Productize', desc: 'Productize yourself with AI-powered personal branding', url: 'https://productize.fooo.ooo/' },
+    video: { desc: 'How to productize yourself in the AI era', url: 'https://www.xiaohongshu.com/discovery/item/69947e110000000015022a7f?source=webshare&xhsshare=pc_web&xsec_token=ABv5jrhY4h0VFp jc_5BDzAUcH9kMC0gAfvCaxiLfePrBk=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
