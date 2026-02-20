@@ -42,6 +42,21 @@ const challenges = [
     product: { name: 'Productize', desc: 'Productize yourself with AI-powered personal branding', url: 'https://productize.fooo.ooo/' },
     video: { desc: 'How to productize yourself in the AI era', url: 'https://www.xiaohongshu.com/discovery/item/69947e110000000015022a7f?source=webshare&xhsshare=pc_web&xsec_token=ABv5jrhY4h0VFp jc_5BDzAUcH9kMC0gAfvCaxiLfePrBk=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.18',
+    product: { name: 'Hello World', desc: 'AI productivity & production relations platform', url: 'https://hello-world.fooo.ooo/' },
+    video: { desc: 'How to turn a Skill into a product?', url: 'https://www.xiaohongshu.com/discovery/item/6996dcd2000000001d01291b?source=webshare&xhsshare=pc_web&xsec_token=ABAydkHWI-Qu4T6pyOv51WrmiSBeXZczStJ-7fKj_O764=&xsec_source=pc_share' },
+  },
+  {
+    date: '2026.02.19',
+    product: { name: 'Hello Fooo', desc: 'Connect your work, team, and AI without friction', url: 'https://hello-fooo.fooo.ooo/' },
+    video: { desc: 'Skills are so useful!', url: 'https://www.xiaohongshu.com/discovery/item/6996e297000000001503109d?source=webshare&xhsshare=pc_web&xsec_token=ABAydkHWI-Qu4T6pyOv51WrskMPXUEo_o_vraVU8fvKDk=&xsec_source=pc_share' },
+  },
+  {
+    date: '2026.02.20',
+    product: { name: 'AIBoost', desc: 'AI-powered enterprise efficiency & productivity platform', url: 'https://aiboost.fooo.ooo/' },
+    video: { desc: 'How to turn videos into Skills', url: 'https://www.xiaohongshu.com/discovery/item/69986c33000000001600893f?source=webshare&xhsshare=pc_web&xsec_token=ABtTj9sunnhBiwwJpCYh2QDRNEVXSoeREXpjjO_T46dG8=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
