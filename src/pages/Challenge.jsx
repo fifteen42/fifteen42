@@ -57,6 +57,11 @@ const challenges = [
     product: { name: 'AIBoost', desc: 'AI-powered enterprise efficiency & productivity platform', url: 'https://aiboost.fooo.ooo/' },
     video: { desc: 'How to turn videos into Skills', url: 'https://www.xiaohongshu.com/discovery/item/69986c33000000001600893f?source=webshare&xhsshare=pc_web&xsec_token=ABtTj9sunnhBiwwJpCYh2QDRNEVXSoeREXpjjO_T46dG8=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.21',
+    product: { name: 'Bubble', desc: 'A lightweight VMM built from scratch in Rust', url: 'https://github.com/fooo-ooo/bubble' },
+    video: { desc: 'Most programmers should become Agent engineers', url: 'https://www.xiaohongshu.com/discovery/item/6999c36a000000001d013b1d?source=webshare&xhsshare=pc_web&xsec_token=AB06a3P-VOlX8Ysv6yNXQGmQiRceQjDKaetTJEDcXPfgc=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
