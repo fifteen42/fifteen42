@@ -62,6 +62,11 @@ const challenges = [
     product: { name: 'Bubble', desc: 'A lightweight VMM built from scratch in Rust', url: 'https://github.com/fooo-ooo/bubble' },
     video: { desc: 'Most programmers should become Agent engineers', url: 'https://www.xiaohongshu.com/discovery/item/6999c36a000000001d013b1d?source=webshare&xhsshare=pc_web&xsec_token=AB06a3P-VOlX8Ysv6yNXQGmQiRceQjDKaetTJEDcXPfgc=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.22',
+    product: { name: 'AgentVerse', desc: 'Discover & evaluate next-generation AI agents', url: 'https://agentverse.fooo.ooo/' },
+    video: { desc: 'If you can use CLI, don\'t use GUI anymore', url: 'https://www.xiaohongshu.com/discovery/item/699b131a000000001d025c5f?source=webshare&xhsshare=pc_web&xsec_token=AB9dFM3XKDqzfj1o-xQte9zP9LPqlfrzabnut6Bdr22V8=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
