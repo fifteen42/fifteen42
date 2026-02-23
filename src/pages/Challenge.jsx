@@ -67,6 +67,11 @@ const challenges = [
     product: { name: 'AgentVerse', desc: 'Discover & evaluate next-generation AI agents', url: 'https://agentverse.fooo.ooo/' },
     video: { desc: 'If you can use CLI, don\'t use GUI anymore', url: 'https://www.xiaohongshu.com/discovery/item/699b131a000000001d025c5f?source=webshare&xhsshare=pc_web&xsec_token=AB9dFM3XKDqzfj1o-xQte9zP9LPqlfrzabnut6Bdr22V8=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.23',
+    product: { name: 'CodArt', desc: 'A coding agent built from scratch', url: 'https://codart.fun' },
+    video: { desc: 'Showing your face is like stamping your content', url: 'http://xhslink.com/o/5Alk9tCNtjs' },
+  },
 ];
 
 const LinkIcon = () => (
