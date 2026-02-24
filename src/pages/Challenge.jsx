@@ -72,6 +72,11 @@ const challenges = [
     product: { name: 'CodArt', desc: 'A coding agent built from scratch', url: 'https://codart.fun' },
     video: { desc: 'Showing your face is like stamping your content', url: 'http://xhslink.com/o/5Alk9tCNtjs' },
   },
+  {
+    date: '2026.02.24',
+    product: { name: 'Agentlas', desc: 'Compare top AI agent frameworks side-by-side', url: 'https://agentlas.pro/' },
+    video: { desc: 'Everyone can vibe code — sales matter more now', url: 'https://www.xiaohongshu.com/discovery/item/699dc6fa00000000150307c1?source=webshare&xhsshare=pc_web&xsec_token=ABWDyRCw5nwas4nhK2-Re-SJPmAVrrzp6VOTdi-oQgR2c=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
