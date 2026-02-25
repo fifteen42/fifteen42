@@ -77,6 +77,11 @@ const challenges = [
     product: { name: 'Agentlas', desc: 'Compare top AI agent frameworks side-by-side', url: 'https://agentlas.pro/' },
     video: { desc: 'Everyone can vibe code — sales matter more now', url: 'https://www.xiaohongshu.com/discovery/item/699dc6fa00000000150307c1?source=webshare&xhsshare=pc_web&xsec_token=ABWDyRCw5nwas4nhK2-Re-SJPmAVrrzp6VOTdi-oQgR2c=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.25',
+    product: { name: 'GIFcut', desc: 'Convert videos to GIFs in your browser', url: 'https://gifcut.fooo.ooo' },
+    video: { desc: 'Code with Claude Code on your phone', url: 'https://www.xiaohongshu.com/discovery/item/699f08c70000000015030562?source=webshare&xhsshare=pc_web&xsec_token=ABSuLFQhNyQGTlX6adQ4hos_FmcwhvP_hbQJhZ0Yhb57o=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
