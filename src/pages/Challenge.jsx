@@ -82,6 +82,11 @@ const challenges = [
     product: { name: 'GIFcut', desc: 'Convert videos to GIFs in your browser', url: 'https://gifcut.fooo.ooo' },
     video: { desc: 'Code with Claude Code on your phone', url: 'https://www.xiaohongshu.com/discovery/item/699f08c70000000015030562?source=webshare&xhsshare=pc_web&xsec_token=ABSuLFQhNyQGTlX6adQ4hos_FmcwhvP_hbQJhZ0Yhb57o=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.26',
+    product: { name: 'Rec', desc: 'Browser-based screen recording, no install needed', url: 'https://rec.fooo.ooo/' },
+    video: { desc: 'A job that will definitely emerge: AI Efficiency Specialist', url: 'https://www.xiaohongshu.com/discovery/item/69a04925000000001b01752e?source=webshare&xhsshare=pc_web&xsec_token=AB4kcA7fNhytrau03klQ6WD4qDWRt1xqQRZnD_3BFCOms=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
