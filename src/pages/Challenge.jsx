@@ -87,6 +87,11 @@ const challenges = [
     product: { name: 'Rec', desc: 'Browser-based screen recording, no install needed', url: 'https://rec.fooo.ooo/' },
     video: { desc: 'A job that will definitely emerge: AI Efficiency Specialist', url: 'https://www.xiaohongshu.com/discovery/item/69a04925000000001b01752e?source=webshare&xhsshare=pc_web&xsec_token=AB4kcA7fNhytrau03klQ6WD4qDWRt1xqQRZnD_3BFCOms=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.27',
+    product: { name: 'SaaS Boost', desc: 'AI-powered marketing engine for SaaS products', url: 'https://saasboost.fooo.ooo' },
+    video: { desc: 'Counterintuitive: AI is massively increasing programmer jobs', url: 'https://www.xiaohongshu.com/discovery/item/69a1ac4e000000001d0269f2?source=webshare&xhsshare=pc_web&xsec_token=AB-Wxvn020Jp7JLEGseOfXCouS_bAQ7C6112dq7iekMlw=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
