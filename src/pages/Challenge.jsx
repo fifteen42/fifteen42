@@ -92,6 +92,11 @@ const challenges = [
     product: { name: 'SaaS Boost', desc: 'AI-powered marketing engine for SaaS products', url: 'https://saasboost.fooo.ooo' },
     video: { desc: 'Counterintuitive: AI is massively increasing programmer jobs', url: 'https://www.xiaohongshu.com/discovery/item/69a1ac4e000000001d0269f2?source=webshare&xhsshare=pc_web&xsec_token=AB-Wxvn020Jp7JLEGseOfXCouS_bAQ7C6112dq7iekMlw=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.02.28',
+    product: { name: 'PicVid', desc: 'Turn images into video in your browser', url: 'https://picvid.fooo.ooo' },
+    video: { desc: 'The Agent framework Pi behind OpenClaw is worth learning', url: 'https://www.xiaohongshu.com/discovery/item/69a305730000000015038706?source=webshare&xhsshare=pc_web&xsec_token=ABH8TL7yMQvXUB8WCBswOUFcCydLtFwIbxtC-lAjvdn1c=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
