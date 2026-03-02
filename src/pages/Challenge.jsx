@@ -102,6 +102,11 @@ const challenges = [
     product: { name: 'GEO', desc: 'Optimize content to be directly cited by AI', url: 'https://geo.fooo.ooo' },
     video: { desc: 'With AI, ideas are no longer enough', url: 'https://www.xiaohongshu.com/discovery/item/69a450e60000000015032448?source=webshare&xhsshare=pc_web&xsec_token=ABlBWmM6OdGQDqDHn0SWD2iyTqoR-i9FO-K-BlZYkTLxE=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.03.02',
+    product: { name: 'MoodFlow', desc: 'Track and understand your emotional journey', url: 'https://moodflow.fooo.ooo' },
+    video: { desc: 'AI has reduced my use of WeChat Reading', url: 'https://www.xiaohongshu.com/discovery/item/69a5a47c000000001d013c5d?source=webshare&xhsshare=pc_web&xsec_token=ABMx_yRp4uXeHjRhnm6JaYFLGYY2ZN7nIGDOfKUEfFoSY=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
