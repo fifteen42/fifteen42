@@ -97,6 +97,11 @@ const challenges = [
     product: { name: 'PicVid', desc: 'Turn images into video in your browser', url: 'https://picvid.fooo.ooo' },
     video: { desc: 'The Agent framework Pi behind OpenClaw is worth learning', url: 'https://www.xiaohongshu.com/discovery/item/69a305730000000015038706?source=webshare&xhsshare=pc_web&xsec_token=ABH8TL7yMQvXUB8WCBswOUFcCydLtFwIbxtC-lAjvdn1c=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.03.01',
+    product: { name: 'GEO', desc: 'Optimize content to be directly cited by AI', url: 'https://geo.fooo.ooo' },
+    video: { desc: 'With AI, ideas are no longer enough', url: 'https://www.xiaohongshu.com/discovery/item/69a450e60000000015032448?source=webshare&xhsshare=pc_web&xsec_token=ABlBWmM6OdGQDqDHn0SWD2iyTqoR-i9FO-K-BlZYkTLxE=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
