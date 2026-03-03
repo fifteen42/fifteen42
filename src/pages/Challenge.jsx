@@ -107,6 +107,11 @@ const challenges = [
     product: { name: 'MoodFlow', desc: 'Track and understand your emotional journey', url: 'https://moodflow.fooo.ooo' },
     video: { desc: 'AI has reduced my use of WeChat Reading', url: 'https://www.xiaohongshu.com/discovery/item/69a5a47c000000001d013c5d?source=webshare&xhsshare=pc_web&xsec_token=ABMx_yRp4uXeHjRhnm6JaYFLGYY2ZN7nIGDOfKUEfFoSY=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.03.03',
+    product: { name: 'FundMate', desc: 'AI-powered fundraising agent for startups', url: 'https://fundmate.fooo.ooo' },
+    video: { desc: 'Google Trends is a great tool for discovering real demand', url: 'https://www.xiaohongshu.com/discovery/item/69a6f23e000000001d0134a7?source=webshare&xhsshare=pc_web&xsec_token=ABHAVBXWbVB3xk0g8sHg_ThZinClQGlOv5A2DGUSV1N7g=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
