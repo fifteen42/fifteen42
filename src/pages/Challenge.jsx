@@ -112,6 +112,11 @@ const challenges = [
     product: { name: 'FundMate', desc: 'AI-powered fundraising agent for startups', url: 'https://fundmate.fooo.ooo' },
     video: { desc: 'Google Trends is a great tool for discovering real demand', url: 'https://www.xiaohongshu.com/discovery/item/69a6f23e000000001d0134a7?source=webshare&xhsshare=pc_web&xsec_token=ABHAVBXWbVB3xk0g8sHg_ThZinClQGlOv5A2DGUSV1N7g=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.03.04',
+    product: { name: 'Agent Studio', desc: 'AI-powered talent agency management platform', url: 'https://agent-studio.fooo.ooo' },
+    video: { desc: 'Is being too controlling why you can\'t use OpenClaw well?', url: 'http://xhslink.com/o/3CE4gpZPRA4' },
+  },
 ];
 
 const LinkIcon = () => (
