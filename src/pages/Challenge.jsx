@@ -117,6 +117,11 @@ const challenges = [
     product: { name: 'Agent Studio', desc: 'AI-powered talent agency management platform', url: 'https://agent-studio.fooo.ooo' },
     video: { desc: 'Is being too controlling why you can\'t use OpenClaw well?', url: 'http://xhslink.com/o/3CE4gpZPRA4' },
   },
+  {
+    date: '2026.03.05',
+    product: { name: 'QuickTake', desc: 'Fast webcam video recording in your browser', url: 'https://quicktake.fooo.ooo' },
+    video: { desc: '100 Day Challenge: one product and one video every day', url: 'http://xhslink.com/o/AGuvXPt02gs' },
+  },
 ];
 
 const LinkIcon = () => (
