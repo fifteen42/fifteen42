@@ -122,6 +122,11 @@ const challenges = [
     product: { name: 'QuickTake', desc: 'Fast webcam video recording in your browser', url: 'https://quicktake.fooo.ooo' },
     video: { desc: '100 Day Challenge: one product and one video every day', url: 'http://xhslink.com/o/AGuvXPt02gs' },
   },
+  {
+    date: '2026.03.06',
+    product: { name: 'Intern Manager', desc: 'AI agents delegate, monitor & review human interns', url: 'https://intern-manager.fooo.ooo' },
+    video: { desc: 'Claude reminded me to do kegel exercises — multimodal payment demo', url: 'https://www.xiaohongshu.com/discovery/item/69aaf04e000000000e03e060?source=webshare&xhsshare=pc_web&xsec_token=ABeFONo4qgYZHWQALbHKPpAcSQEyWIfbux5Wv6N51qeQE=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
