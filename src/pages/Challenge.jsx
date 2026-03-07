@@ -127,6 +127,11 @@ const challenges = [
     product: { name: 'Intern Manager', desc: 'AI agents delegate, monitor & review human interns', url: 'https://intern-manager.fooo.ooo' },
     video: { desc: 'Claude reminded me to do kegel exercises — multimodal payment demo', url: 'https://www.xiaohongshu.com/discovery/item/69aaf04e000000000e03e060?source=webshare&xhsshare=pc_web&xsec_token=ABeFONo4qgYZHWQALbHKPpAcSQEyWIfbux5Wv6N51qeQE=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.03.08',
+    product: { name: 'WordCheck', desc: 'Detect banned words for Xiaohongshu, Douyin & WeChat', url: 'https://wordcheck.fooo.ooo' },
+    video: { desc: 'Using Claude Code on your phone — super smooth workflow', url: '#' },
+  },
 ];
 
 const LinkIcon = () => (
