@@ -132,6 +132,11 @@ const challenges = [
     product: { name: 'WordCheck', desc: 'Detect banned words for Xiaohongshu, Douyin & WeChat', url: 'https://wordcheck.fooo.ooo' },
     video: { desc: 'Using Claude Code on your phone — super smooth workflow', url: '#' },
   },
+  {
+    date: '2026.03.08',
+    product: { name: 'Cavo', desc: 'Control iPhone with Claude Code via multimodal AI', url: '#' },
+    video: { desc: 'How to control iPhone with Claude Code — multimodal magic', url: 'https://www.xiaohongshu.com/discovery/item/69ad4abc000000001600ae59?source=webshare&xhsshare=pc_web&xsec_token=ABrG_WS_9_ovmi-JkG34CAsrOyQ59tMPI7DHnxclZuJmk=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
