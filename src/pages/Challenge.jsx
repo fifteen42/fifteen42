@@ -137,6 +137,11 @@ const challenges = [
     product: { name: 'Cavo', desc: 'Control iPhone with Claude Code via multimodal AI', url: '#' },
     video: { desc: 'How to control iPhone with Claude Code — multimodal magic', url: 'https://www.xiaohongshu.com/discovery/item/69ad4abc000000001600ae59?source=webshare&xhsshare=pc_web&xsec_token=ABrG_WS_9_ovmi-JkG34CAsrOyQ59tMPI7DHnxclZuJmk=&xsec_source=pc_share' },
   },
+  {
+    date: '2026.03.09',
+    product: { name: 'ClaudeCards', desc: 'AI coding assistance gift cards for developers', url: 'https://claudecards.fooo.ooo' },
+    video: { desc: 'Deploying OpenClaw on a Mac Mini alternative mini PC', url: 'https://www.xiaohongshu.com/discovery/item/69aee52d000000001b0165f6?source=webshare&xhsshare=pc_web&xsec_token=ABmeYM_z8CzzZTsZtdWqjOro4DUvSek9dZVptp2qMRwrY=&xsec_source=pc_share' },
+  },
 ];
 
 const LinkIcon = () => (
